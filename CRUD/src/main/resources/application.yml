@@ -1,0 +1,24 @@
+
+
+spring:
+  application:
+    name: CRUD
+  datasource:
+    url: jdbc:mysql://localhost:3306/springtest
+    username: test
+    password: rA&Jc5Xf9d!h!YSK
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+datasource:
+  crud:
+    jdbc-url: jdbc:mysql://localhost:3306/springtest
+    username: test
+    password: rA&Jc5Xf9d!h!YSK
+    maximum-pool-size: 10
+    pool-name: HikariCP
+    auto-commit: true
+
+server:
+  port: 8080
